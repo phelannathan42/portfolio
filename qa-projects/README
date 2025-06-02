@@ -1,0 +1,27 @@
+#  QA Projects
+
+This folder contains beginner-friendly QA artifacts for entry-level testing roles. Each file is designed to demonstrate test planning, execution, and bug tracking skills for portfolio and job application purposes.
+
+---
+
+##  Contents
+
+| File                                | Description                              |
+|-------------------------------------|------------------------------------------|
+| `spotify-login-testcase.md`         | Manual test case for Spotify login page  |
+| `uber-login-bug-report.md`          | Bug report for invalid email format issue on Uber login page |
+
+---
+
+##  Tools Used
+
+- Markdown
+- Browser DevTools
+- Chrome, Firefox
+- Manual QA workflow
+
+---
+
+##  Author
+Nathan Phelan  
+GitHub: [phelannathan42](https://github.com/phelannathan42)  
