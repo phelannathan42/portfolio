@@ -1,0 +1,56 @@
+#  Bug Report: Uber Login Page - Incorrect Error Message
+
+## Bug ID
+BR-001-UBER-LOGIN
+
+## Reported By
+Nathan Phelan
+
+## Report Date
+2025-06-01
+
+---
+
+## Summary
+The Uber login page returns an incorrect error message when an invalid email format is entered. Instead of prompting the user to “Enter a valid email,” the message incorrectly states “Email or password is incorrect.”
+
+---
+
+## Environment
+- OS: Windows 11
+- Browser: Google Chrome v124.0
+- URL: https://auth.uber.com/login
+- Device: Desktop
+
+---
+
+## Steps to Reproduce
+
+1. Go to https://auth.uber.com/login  
+2. Enter `invalidemail.com` in the email field  
+3. Enter any password (e.g., `Test123!`)  
+4. Click the **Next** or **Login** button  
+
+---
+
+## Expected Result
+> “Please enter a valid email address.”
+
+## Actual Result
+> “Email or password is incorrect.”
+
+---
+
+## Severity
+🟡 Medium – User may get confused and retry correct credentials without realizing the format is invalid.
+
+---
+
+## Screenshot (Optional)
+*Attach screenshot here if available*
+
+---
+
+## Notes
+Tested on Firefox as well — same result. Recommend validation for email format before submitting form.
+
